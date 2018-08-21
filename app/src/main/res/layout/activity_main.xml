@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.nishi.qrcode_generate_scan.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etqr"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:hint="@string/enter_string"
+        android:inputType="" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/create_image" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/iv"
+        android:contentDescription="@string/todo" />
+
+
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:text="@string/scan_barcode_or_qr_code" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvresult"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/result_will_be_here"/>
+</LinearLayout>

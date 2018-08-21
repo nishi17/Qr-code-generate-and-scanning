@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">QRcode_generate_scan</string>
+    <string name="input_some_text_here">Input some text here ...</string>
+    <string name="generate_qr_code">Generate QR Code</string>
+    <string name="todo">TODO</string>
+    <string name="hint">write some text</string>
+    <string name="create_image">Create Image</string>
+    <string name="enter_string">Enter String</string>
+    <string name="scan_barcode_or_qr_code">Scan Barcode or QR code</string>
+    <string name="result_will_be_here">Result will be here</string>
+    <string name="scan_results">Scan Results:</string>
+    <string name="take_picture">Take Picture</string>
+
+
+</resources>
